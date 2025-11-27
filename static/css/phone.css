@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 11px;
+}
+.picture-circle{
+    margin-right: 0px;
+
+}
+
+.social-circles {
+    margin-top: 23px;
+    margin-left: 0px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+
+}
+
+.about-blue-boxes {
+    display: flex;
+    gap: 20px;
+    margin-left: -2px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-blue-boxes .box1 {
+    height: 70%;
+    width: 50%;
+}
+
+.about-section-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-left: -2px;
+}
+.about-grid {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:  0px 20px ;
+    height: auto;
+    width: 80%;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-box {
+    width: 23rem
+}
+
+.edu-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 23rem;
+    text-align: center;
+}
+
+.edu-left {
+    display: flex;
+    gap: 18px;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contact-wrapper {
+    display: flex;
+    gap: 50px;
+    padding: 0px 107px;
+    margin-left: -20px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box {
+    width: 130%;
+    height: 38rem;
+    margin-left: 0px;
+    margin-top: -10px;
+
+}
+.footer {
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.flash_message {
+    right: 8rem;
+    left: 8rem;
+}
+    
+
+.footer-col {
+    flex: 1;
+    min-width: 180px;
+    margin-right: 0px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
